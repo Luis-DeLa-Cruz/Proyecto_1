@@ -40,7 +40,7 @@ body  {
 
 	--letter-clr-bg: #fff;
 	--letter-clr-text: #00000;
-	--letter-font-size: 0.8rem;
+	--letter-font-size: 1.5rem;
 	--letter-delay: 0ms;
 	--letter-delay-hover: calc(
 		var(--duration) * 1.25
@@ -56,7 +56,7 @@ body  {
 	--fold-delay: calc(var(--duration) / 2); /* delay before opening top section */
 	--fold-delay-hover: calc(var(--duration) * .75);
 
-	--front-font-size: 1rem;
+	--front-font-size: 1.5rem;
 	--snowman-width: 50px;
 	--bells-width: 30px;
 
@@ -71,7 +71,7 @@ body  {
 	.envelope {
 		--envelope-width: 600px;
 		--envelope-height: 350px;
-		--letter-font-size: 1rem;
+		--letter-font-size: 1.5rem;
 		--snowman-width: 130px;
 		--bells-width: 60px;
 		--front-font-size: 1.25rem;
