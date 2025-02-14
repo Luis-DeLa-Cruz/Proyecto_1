@@ -14,8 +14,8 @@ body, html {
 
 /* Contenedor del mensaje */
 .message {
-    width: 35vw;
-    height: 35vh;
+    width: 50vw;
+    height: 50vh;
     background: rgba(255, 255, 255, 0.12); /* Fondo semi-transparente */
     border-radius: 20px;
     display: flex;
@@ -120,8 +120,8 @@ body, html {
 /* 🎯 Responsividad */
 @media (max-width: 768px) {
     .message {
-        width: 60vw;
-        height: 35vh;
+        width: 70vw;
+        height: 50vh;
     }
 
     .message h1 {
@@ -141,8 +141,8 @@ body, html {
 
 @media (max-width: 480px) {
     .message {
-        width: 60vw;
-        height: 35vh;
+        width: 70vw;
+        height: 50vh;
     }
 
     .message h1 {
