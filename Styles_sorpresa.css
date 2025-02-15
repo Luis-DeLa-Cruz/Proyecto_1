@@ -26,7 +26,7 @@ body  {
 	--shadow-blur: 15px;
 
 	--envelope-width: 300px;
-	--envelope-height: 175px;
+	--envelope-height: 150px;
     --envelope-clr-bg: #d42a1a; /* Rojo más intenso y romántico */
     --envelope-clr-bg-side: #b84a42; /* Un rojo suave y cálido */
     --envelope-clr-bg-bottom: #e04c43; /* Un rojo más suave */
@@ -40,7 +40,7 @@ body  {
 
 	--letter-clr-bg: #fff;
 	--letter-clr-text: #00000;
-	--letter-font-size: 1.5rem;
+	--letter-font-size: 2rem;
 	--letter-delay: 0ms;
 	--letter-delay-hover: calc(
 		var(--duration) * 1.25
@@ -56,7 +56,7 @@ body  {
 	--fold-delay: calc(var(--duration) / 2); /* delay before opening top section */
 	--fold-delay-hover: calc(var(--duration) * .75);
 
-	--front-font-size: 1.5rem;
+	--front-font-size: 2rem;
 	--snowman-width: 50px;
 	--bells-width: 30px;
 
@@ -70,8 +70,8 @@ body  {
 @media (min-width: 720px) {
 	.envelope {
 		--envelope-width: 600px;
-		--envelope-height: 350px;
-		--letter-font-size: 1.5rem;
+		--envelope-height: 250px;
+		--letter-font-size: 2rem;
 		--snowman-width: 130px;
 		--bells-width: 60px;
 		--front-font-size: 1.25rem;
